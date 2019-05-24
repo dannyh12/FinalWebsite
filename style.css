@@ -1,0 +1,362 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.button_1{
+    height:38px;
+    background: rgb(22, 20, 25);
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    border: 1px solid white
+}
+
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
+header{
+    background: rgb(22, 20, 25);
+    color: #ffffffff;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #ffffff 3px solid;
+    
+}
+
+header a{
+    color:floralwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top 0;
+    
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+header nav{
+    float: right;
+}
+
+header .highlight, header .current a{
+    color: #ffffff;
+    font-weight: Bold;
+    
+}
+header a:hover{
+    color:#cccccc;
+}
+
+
+#showcase{
+    min-height:700px;
+    background:url('images/tony-stark-header.jpg') no-repeat 0 -100px;
+    text-align:center;
+    color:#ffffff;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size:20px;
+    
+}
+
+#newsletter{
+    padding:0;
+    background: #35424a;
+    border: 3px solid white;
+}
+
+#newsletter h1{
+    float: left;
+    color: #f2f2f2;
+}
+
+#newsletter form{
+    float:right;
+    margin-top:15px;
+    
+}
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+#boxes{
+   
+;
+}
+
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+
+}
+
+#boxes .box img{
+    width:150px;
+    border: 5px solid black;
+}
+
+aside#sidebar{
+    float: right;
+    width:30%;
+    margin-top:10px;
+}
+
+article#main-col{
+    float: left;
+    width:65%;
+}
+
+footer{
+    padding: 1px;
+    margin-top:px;
+    background-color:#ffffff;
+    text-align: center;
+}
+
+
+h3 {
+    
+    text-align: center;
+    color: black;
+   
+}
+
+.navbar{
+    background-color:rgb(22, 20, 25);
+    overflow: hidden;
+    height:63px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+
+.navbar ul{
+    margin: 8px 0 0 0;
+    list-style: none;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color:#fff;
+}
+
+.side-nav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color:#111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top:60px;
+    transition: 0.5s;
+}
+
+.sidenav a{
+    padding:10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color:#ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color:#000;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top:0;
+    right:22px;
+    font-size:36px;
+    margin-left: 50px;
+}
+
+h9{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+h9:after{
+    content: '';
+    background: white;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+
+
+
+img {
+    background-color:grey;
+    border: 3px solid white;
+    width: 40%;
+    
+}
+
+.services ul li{
+    list-style: none;
+    padding:10px;
+}
+
+.servces ul li:nth-child(odd){
+    background:#333;
+    color:#fff;
+}
+
+.servces ul li:nth-child(even){
+    background:#333;
+    color:#fff;
+}
+
+span{
+    color: #35424a;
+    text-align: center
+    
+}
+
+.con {
+    background: #35424a;
+    border: 3px solid black;
+    color:#000;
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.top {
+    background-color: #fff;
+    text-align: center;
+}
+
+.mid {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    border: 3px solid grey;
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bottom {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+h11{
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align:
+}
+
+.contact-section{
+    padding:40px;
+    background-size: cover;
+    text-align: center;
+}
+.contact-section h11{
+    text-align: center;
+    color: #ddd;
+}
+
+.border-contact {
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+    
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #fff;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:hover;

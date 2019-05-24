@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" contnet="width=device-width">
+      <meta name="description" content="Affordable and Profetional web design">
+      <meta name="keywords" content="web design, affordable web design, profetional web design">
+      <meta name="author" content="Danny Hailu">
+      <title>Tony Stark</title>
+      <link rel="stylesheet" href="style.css">
+      
+      <script type="text/javascript">
+        Function togglemenu(){
+            
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+      
+      </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <nav class="navbar">
+        
+        <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+              <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="#fff"
+               stroke-width="5"/>
+               <path d="M0,15 30,15" stroke="#fff"
+               stroke-width="5"/>
+               <path d="M0,25 30,25" stroke="#fff"
+               stroke-width="5"/>
+              </svg>
+            </a>
+          </span>
+        </nav>
+        
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" 
+            onclick="closeSlideMenu()">&times;</a>
+            <a href="#"><img src="images/relemail.png"> Email</a>
+            <a href="#"><img src="images/relface.png"> Faceook</a>
+            <a href="#"><img src="images/relista.png"> Instagram</a>
+        </div>
+
+        <script>
+           function openSlideMenu(){
+               document.getElementById('side-menu').style.width
+               = '250px';
+               document.getElementById('main').style.marginLeft
+               = '250px';
+               
+           }
+            
+            function closeSlideMenu(){
+               document.getElementById('side-menu').style.width
+               = '0';
+               document.getElementById('main').style.marginLeft
+               = '0';
+            }
+        </script>
+      <div id="branding">
+          <h9><span class="highlight"> DannyHailu <span </h9>
+    </div>
+    <nav>
+         <ul>
+             <li class="current"><a href="index.html">Home</a></li>  
+             <li><a href="about.html"> About</a></li>
+             <li><a href="services.html"> Services</a></li>
+             <li><a href="contact.html"> Contact</a></li>
+        </ul>
+    </nav>
+  
+    </div>
+</header>
+
+    <div class="container">
+    <section id="main">
+      <div class="container">
+          <article id="main-col">
+              <h1 class="page-title">About Tony </h1>
+              <h2> Young Tony Stark was a prodigy of mechanical engineering genius. At 21, he took over his father's company and launched it into a hugely successful corporation. During a testing of new technology in Vietnam, Tony was hit by a piece of shrapnel from a booby trap. The shrapnel was lodged near his heart and without help, Tony would die.
+
+
+There, he was captured by a communist leader and imprisoned, forced to make new weapons for the overlord. Also imprisoned with him was Professor Ho Yinsen, a renowned physicist. Together they built the first suit of armor that would become Iron Man. Professor Ho even made the chest plate of the armor with a device to help Tony’s heart keep beating.
+
+Tony used the armor to escape, although in the process, Professor Ho sacrificed his life to give Tony the time to charge it to full capacity. Tony escaped with James Rhodes (now War Machine) and returned to America to become a part of the Avengers, taking his fathers teachings of giving back to the world to heart and using his new armor to aid mankind. He wasn’t without his own demons though, as he struggled with alcoholism throughout his life.
+
+                  In the midst of being a hero and working with the Avengers, Tony also continued to grow his company into a multi-billion corporation. He developed and sold technology that went to S.H.I.E.L.D. and other organizations, such as the Avengers Quinjet. His success continued to grow, and this to let him being targeted by Obadiah Stane, another billionaire with his own weapons design business.</h2>
+</body>
+</html>

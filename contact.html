@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" contnet="width=device-width">
+      <meta name="description" content="Affordable and Profetional web design">
+      <meta name="keywords" content="web design, affordable web design, profetional web design">
+      <meta name="author" content="John Naranjo">
+      <title>Martin Luther King | Welcome</title>
+      <link rel="stylesheet" href="main.css/style.css">
+      
+      <script type="text/javascript">
+        Function togglemenu(){
+            
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+      
+      </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <nav class="navbar">
+        
+        <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+              <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="#fff"
+               stroke-width="5"/>
+               <path d="M0,15 30,15" stroke="#fff"
+               stroke-width="5"/>
+               <path d="M0,25 30,25" stroke="#fff"
+               stroke-width="5"/>
+              </svg>
+            </a>
+          </span>
+        </nav>
+        
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" 
+            onclick="closeSlideMenu()">&times;</a>
+            <a href="#"><img src="images/relemail.png"> Email</a>
+            <a href="#"><img src="images/relface.png"> Faceook</a>
+            <a href="#"><img src="images/relista.png"> Instagram</a>
+        </div>
+
+        <script>
+           function openSlideMenu(){
+               document.getElementById('side-menu').style.width
+               = '250px';
+               document.getElementById('main').style.marginLeft
+               = '250px';
+               
+           }
+            
+            function closeSlideMenu(){
+               document.getElementById('side-menu').style.width
+               = '0';
+               document.getElementById('main').style.marginLeft
+               = '0';
+            }
+        </script>
+      <div id="branding">
+          <h9><span class="highlight"> Johnnyboyathin Article </span> </h9>
+    </div>
+    <nav>
+         <ul>
+             <li class="current"><a href="index.html"> Home</a></li>  
+             <li><a href="about.html"> About</a></li>
+             <li><a href="services.html"> Services</a></li>
+             <li><a href="contact.html"> Contact</a></li>
+            
+        </ul>
+    </nav>
+  
+    </div>
+</header>
+    <section id="newsletter">
+      <div class="container">
+          <h1> Subscribe To Our Newsletter</h1>
+          <form>
+            <input type="email" placeholder="Enter Email...">
+              <button type="submit" class="button_1">Subscribe</button>
+          </form>
+        </div>
+   </section>
+    
+    <div class="contact-section">
+    <h11> Contact Us</h11>
+        <div class="border-contact"></div>
+    <form class="contact-form" action="contact.html" method="post">
+        <input type="text" class="contact-form-text" placeholder="Your Name">
+        <input type="email" class="contact-form-text" placeholder="Your Email">
+        <input type="text" class="contact-form-text" placeholder="Your Phone">
+        <textarea class="contact-form-text" placeholder="Your Message"></textarea>
+        <input type="submit" class="contact-form-btn" value="Send">
+    </form>
+    </div>
+    </body>
+</html>
