@@ -333,17 +333,17 @@ h11{
 }
 
 .border-contact {
-    width: 100px;
-    height: 10px;
+    width: 900px;
+    height: 5px;
     background: #34495e;
-    margin: 40px auto;
+    margin: 60px auto;
     
 }
 
 .contact-form {
     max-width: 600px;
     margin: auto;
-    padding: 0 10px;
+    padding:  0px;
     overflow: hidden;
 }
 contact-form-text{
@@ -355,7 +355,7 @@ contact-form-text{
     background: #fff;
     padding: 20px 40px;
     outline: none;
-    color: #ddd;
+    color: #ffffff;
     transition: 0.5s;
 }
 
